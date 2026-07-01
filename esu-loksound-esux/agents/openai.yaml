@@ -1,0 +1,4 @@
+interface:
+  display_name: "ESU LokSound ESUX"
+  short_description: "ESULokSoundESUX功能映射文件表和加密音频状态解析"
+  default_prompt: "Use $esu-loksound-esux to parse this ESU .esux sound project, extract function mappings, list files, and assess encrypted audio payloads."
