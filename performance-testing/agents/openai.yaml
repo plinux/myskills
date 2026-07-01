@@ -1,0 +1,7 @@
+interface:
+  display_name: "性能测试"
+  short_description: "串行执行性能测试并保存证据报告"
+  default_prompt: "Use $performance-testing to run a serialized performance test with preflight checks and a timestamped Markdown report."
+
+policy:
+  allow_implicit_invocation: true
