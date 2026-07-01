@@ -1,0 +1,7 @@
+interface:
+  display_name: "Z21 LAN Protocol"
+  short_description: "Analyze Z21 LAN UDP protocol and controller compatibility"
+  default_prompt: "Use $z21-lan-protocol to analyze a Roco/Fleischmann Z21 LAN packet, command flow, or controller compatibility question."
+
+policy:
+  allow_implicit_invocation: true
