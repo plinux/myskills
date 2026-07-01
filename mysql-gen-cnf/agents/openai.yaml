@@ -1,0 +1,7 @@
+interface:
+  display_name: "MySQL my.cnf 生成"
+  short_description: "按版本和资源生成测试用 my.cnf"
+  default_prompt: "Use $mysql-gen-cnf to generate a version-aware MySQL my.cnf for functional testing or resource-aware performance testing."
+
+policy:
+  allow_implicit_invocation: true

@@ -12,6 +12,7 @@
 | `digsight-dxsd-sound` | 解析动芯 Digsight `.dxsd` 音效工程文件，提取功能键、Slot、声音、AUX、节点图和 CV 映射 | `v0.1` |
 | `esu-loksound-esux` | 解析 ESU LokSound `.esux` 音效工程文件，提取 meta.xml 功能/AUX 映射、文件表和加密音频状态 | `v0.1` |
 | `init-project-agent-md` | 初始化项目级智能体提示文件和文档骨架，支持 Codex、Claude Code 或双文件模式 | `v0.1` |
+| `mysql-gen-cnf` | 为 MySQL 5.6+ 功能测试生成最小配置，或为性能测试按版本、资源、连接数和安全策略生成 my.cnf | `v0.1` |
 
 ## 本地安装
 
@@ -25,6 +26,7 @@ rsync -a --delete digsight-dxdcnet-protocol/ ~/.codex/skills/digsight-dxdcnet-pr
 rsync -a --delete digsight-dxsd-sound/ ~/.codex/skills/digsight-dxsd-sound/
 rsync -a --delete esu-loksound-esux/ ~/.codex/skills/esu-loksound-esux/
 rsync -a --delete init-project-agent-md/ ~/.codex/skills/init-project-agent-md/
+rsync -a --delete mysql-gen-cnf/ ~/.codex/skills/mysql-gen-cnf/
 ```
 
 安装到 Claude Code：
@@ -37,4 +39,5 @@ rsync -a --delete digsight-dxdcnet-protocol/ ~/.claude/skills/digsight-dxdcnet-p
 rsync -a --delete digsight-dxsd-sound/ ~/.claude/skills/digsight-dxsd-sound/
 rsync -a --delete esu-loksound-esux/ ~/.claude/skills/esu-loksound-esux/
 rsync -a --delete init-project-agent-md/ ~/.claude/skills/init-project-agent-md/
+rsync -a --delete mysql-gen-cnf/ ~/.claude/skills/mysql-gen-cnf/
 ```
