@@ -1,0 +1,7 @@
+interface:
+  display_name: "ESU ECoS Protocol"
+  short_description: "Analyze ESU ECoS TCP protocol and hardware compatibility"
+  default_prompt: "Use $esu-ecos-protocol to analyze an ESU ECoS command sequence, controller capability report, or 50200/50210/50220 compatibility question."
+
+policy:
+  allow_implicit_invocation: true
