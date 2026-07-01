@@ -1,0 +1,4 @@
+interface:
+  display_name: "Z21 Layout Analyze"
+  short_description: "解析 Roco Z21 文件中的车辆和轨道 Layout"
+  default_prompt: "Use $z21-layout-analyze to analyze a Roco Z21 .z21 layout file and export vehicles, per-vehicle function CSV files, images, and track layout tables."

@@ -16,6 +16,7 @@
 | `performance-testing` | 串行执行性能测试、环境预检、轻量观测采集、结果分析和 Markdown 报告留档 | `v0.1` |
 | `rail-terminology-translation` | 进行轨道交通、铁路和城市轨道交通专业词汇中英互译、术语统一和译文审校 | `v0.1` |
 | `train-model-dcc-protocol` | 解析、实现、审查和调试模型铁路 DCC 协议族，覆盖轨道协议、CV/编程、RailCom/DCC-A、Power Station Interface、decoder interface、SUSI/Train Bus 和标准来源核对 | `v0.1` |
+| `z21-layout-analyze` | 解析 Roco/Fleischmann Z21 `.z21` 文件，导出车辆、图片、功能表和轨道 Layout | `v0.1` |
 
 ## 本地安装
 
@@ -33,6 +34,7 @@ rsync -a --delete mysql-gen-cnf/ ~/.codex/skills/mysql-gen-cnf/
 rsync -a --delete performance-testing/ ~/.codex/skills/performance-testing/
 rsync -a --delete rail-terminology-translation/ ~/.codex/skills/rail-terminology-translation/
 rsync -a --delete train-model-dcc-protocol/ ~/.codex/skills/train-model-dcc-protocol/
+rsync -a --delete z21-layout-analyze/ ~/.codex/skills/z21-layout-analyze/
 ```
 
 安装到 Claude Code：
@@ -49,4 +51,5 @@ rsync -a --delete mysql-gen-cnf/ ~/.claude/skills/mysql-gen-cnf/
 rsync -a --delete performance-testing/ ~/.claude/skills/performance-testing/
 rsync -a --delete rail-terminology-translation/ ~/.claude/skills/rail-terminology-translation/
 rsync -a --delete train-model-dcc-protocol/ ~/.claude/skills/train-model-dcc-protocol/
+rsync -a --delete z21-layout-analyze/ ~/.claude/skills/z21-layout-analyze/
 ```
