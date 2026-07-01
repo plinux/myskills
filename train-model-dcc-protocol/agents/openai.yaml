@@ -1,0 +1,7 @@
+interface:
+  display_name: "Train Model DCC Protocol"
+  short_description: "解析和实现模型铁路 DCC 协议族"
+  default_prompt: "Use $train-model-dcc-protocol to analyze this model railway DCC protocol question and identify the applicable NMRA, RCN, or NEM standard."
+
+policy:
+  allow_implicit_invocation: true
