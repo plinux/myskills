@@ -1,0 +1,4 @@
+interface:
+  display_name: "Digsight DXSD Sound"
+  short_description: "动芯DigsightDXSD音效包功能映射节点图CV和音频解析"
+  default_prompt: "Use $digsight-dxsd-sound to parse this Digsight .dxsd sound project and extract function, AUX, CV, node graph, and audio information."
