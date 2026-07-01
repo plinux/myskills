@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent 提示文件整理"
+  short_description: "整理 AGENTS.md 和 CLAUDE.md 规则"
+  default_prompt: "Use $agent-md-lint to remove duplicate, conflicting, vague, or verbose rules from project agent prompt files."
+
+policy:
+  allow_implicit_invocation: true
