@@ -1,0 +1,7 @@
+interface:
+  display_name: "Digsight DXDCNet Protocol"
+  short_description: "解析和实现动芯 DXDCNet 通讯协议"
+  default_prompt: "Use $digsight-dxdcnet-protocol to parse, implement, or debug a Digsight DXDCNet protocol frame."
+
+policy:
+  allow_implicit_invocation: true
