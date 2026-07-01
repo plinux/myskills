@@ -1,0 +1,7 @@
+interface:
+  display_name: "Code Logic Optimizer"
+  short_description: "优化最近代码逻辑并循环复审提交"
+  default_prompt: "Use $code-logic-optimizer to optimize recent code logic with review and simplification passes."
+
+policy:
+  allow_implicit_invocation: true
