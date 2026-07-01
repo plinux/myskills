@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bug Root Cause Analysis"
+  short_description: "分析实测崩溃和 bug 根因、复现用例、日志证据和修复方案"
+  default_prompt: "使用 $bug-root-cause-analysis 分析实测崩溃或 bug 的根因，先采集现场和日志，再用复现用例确认原因。"
