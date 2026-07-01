@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rail Terminology Translation"
+  short_description: "轨道交通铁路城轨专业词汇中英互译术语统一和译文审校"
+  default_prompt: "Use $rail-terminology-translation to translate rail transit terminology with source-aware, domain-specific wording."

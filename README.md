@@ -14,6 +14,7 @@
 | `init-project-agent-md` | 初始化项目级智能体提示文件和文档骨架，支持 Codex、Claude Code 或双文件模式 | `v0.1` |
 | `mysql-gen-cnf` | 为 MySQL 5.6+ 功能测试生成最小配置，或为性能测试按版本、资源、连接数和安全策略生成 my.cnf | `v0.1` |
 | `performance-testing` | 串行执行性能测试、环境预检、轻量观测采集、结果分析和 Markdown 报告留档 | `v0.1` |
+| `rail-terminology-translation` | 进行轨道交通、铁路和城市轨道交通专业词汇中英互译、术语统一和译文审校 | `v0.1` |
 
 ## 本地安装
 
@@ -29,6 +30,7 @@ rsync -a --delete esu-loksound-esux/ ~/.codex/skills/esu-loksound-esux/
 rsync -a --delete init-project-agent-md/ ~/.codex/skills/init-project-agent-md/
 rsync -a --delete mysql-gen-cnf/ ~/.codex/skills/mysql-gen-cnf/
 rsync -a --delete performance-testing/ ~/.codex/skills/performance-testing/
+rsync -a --delete rail-terminology-translation/ ~/.codex/skills/rail-terminology-translation/
 ```
 
 安装到 Claude Code：
@@ -43,4 +45,5 @@ rsync -a --delete esu-loksound-esux/ ~/.claude/skills/esu-loksound-esux/
 rsync -a --delete init-project-agent-md/ ~/.claude/skills/init-project-agent-md/
 rsync -a --delete mysql-gen-cnf/ ~/.claude/skills/mysql-gen-cnf/
 rsync -a --delete performance-testing/ ~/.claude/skills/performance-testing/
+rsync -a --delete rail-terminology-translation/ ~/.claude/skills/rail-terminology-translation/
 ```
