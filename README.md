@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | `agent-md-lint` | 整理 AGENTS.md、CLAUDE.md 等项目级智能体提示文件，消除重复、冲突、歧义和冗长规则 | `v0.1` |
 | `code-logic-optimizer` | 对最近未提交代码或最后一个提交做代码逻辑优化，汇总审查和简化建议，逐项提交并循环复审 | `v0.1` |
+| `commit-briefing` | 生成仓库 commit 历史简报，统计每个提交的分类、代码量、测试代码量、资源变更和有证据支持的测试验收情况 | `v0.1` |
 | `commit-history-cleanup` | 在新 worktree 和新 branch 中整理 Git 提交历史，合并无效反复修改并输出清晰的功能提交 | `v0.1` |
 | `digsight-dxdcnet-protocol` | 解析、实现和调试动芯 Digsight DXDCNet V3.11 通讯协议帧、命令字和设备状态 | `v0.1` |
 | `digsight-dxsd-sound` | 解析动芯 Digsight `.dxsd` 音效工程文件，提取功能键、Slot、声音、AUX、节点图和 CV 映射 | `v0.1` |
@@ -29,6 +30,7 @@
 mkdir -p ~/.codex/skills
 rsync -a --delete agent-md-lint/ ~/.codex/skills/agent-md-lint/
 rsync -a --delete code-logic-optimizer/ ~/.codex/skills/code-logic-optimizer/
+rsync -a --delete commit-briefing/ ~/.codex/skills/commit-briefing/
 rsync -a --delete commit-history-cleanup/ ~/.codex/skills/commit-history-cleanup/
 rsync -a --delete digsight-dxdcnet-protocol/ ~/.codex/skills/digsight-dxdcnet-protocol/
 rsync -a --delete digsight-dxsd-sound/ ~/.codex/skills/digsight-dxsd-sound/
@@ -49,6 +51,7 @@ rsync -a --delete z21-layout-analyze/ ~/.codex/skills/z21-layout-analyze/
 mkdir -p ~/.claude/skills
 rsync -a --delete agent-md-lint/ ~/.claude/skills/agent-md-lint/
 rsync -a --delete code-logic-optimizer/ ~/.claude/skills/code-logic-optimizer/
+rsync -a --delete commit-briefing/ ~/.claude/skills/commit-briefing/
 rsync -a --delete commit-history-cleanup/ ~/.claude/skills/commit-history-cleanup/
 rsync -a --delete digsight-dxdcnet-protocol/ ~/.claude/skills/digsight-dxdcnet-protocol/
 rsync -a --delete digsight-dxsd-sound/ ~/.claude/skills/digsight-dxsd-sound/

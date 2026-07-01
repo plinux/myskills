@@ -1,0 +1,7 @@
+interface:
+  display_name: "Commit Briefing"
+  short_description: "生成仓库提交历史简报、分类、代码量和测试证据统计报告"
+  default_prompt: "使用 $commit-briefing 生成当前仓库的 commit 简报，包含分类、代码量、测试代码量、资源变更和有证据支持的测试验收情况。"
+
+policy:
+  allow_implicit_invocation: true
