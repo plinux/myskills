@@ -1,0 +1,7 @@
+interface:
+  display_name: "Commit 历史整理"
+  short_description: "在新 branch 和 worktree 中安全整理提交历史"
+  default_prompt: "Use $commit-history-cleanup to reorganize the current branch history into clear, independent commits on a new branch without rewriting the original branch."
+
+policy:
+  allow_implicit_invocation: true
